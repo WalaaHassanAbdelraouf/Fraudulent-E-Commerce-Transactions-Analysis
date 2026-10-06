@@ -1,6 +1,13 @@
 # Fraudulent-E-Commerce-Transactions-Analysis
 
-An end-to-end data analytics project using **Google BigQuery, SQL, and Looker Studio** to analyze fraudulent e-commerce transactions, identify fraud patterns, and highlight potential risk indicators.
+## Project Overview
+
+This project aims to analyze e-commerce transaction data to understand fraudulent activity, identify patterns associated with potentially higher fraud risk, and support better fraud monitoring and risk assessment.
+
+Using SQL in Google BigQuery, I explored transaction, customer, payment, device, and time-related data to investigate differences between fraudulent and non-fraudulent transactions. I then built an interactive Looker Studio dashboard to present the findings and make the results easier to explore.
+
+The main goal is to turn raw transaction data into **actionable business insights** that can help businesses identify suspicious patterns, prioritize further investigation, and make more informed decisions about fraud prevention.
+
 
 ## Dashboard
 

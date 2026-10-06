@@ -24,9 +24,9 @@ The dataset contains:
 
 ### Tools
 
-- **Google BigQuery** : data storage, cleaning, transformation, and analysis
-- **SQL** : data exploration, cleaning, and fraud analysis
-- **Looker Studio** : interactive dashboard and visualization
+- **Google BigQuery** : Used for data storage, cleaning, transformation, and analysis
+- **SQL** : Used for data exploration, cleaning, and fraud analysis
+- **Looker Studio** : Used for interactive dashboard and visualization
 
 ---
 
@@ -39,8 +39,7 @@ The analysis was conducted to answer the following questions:
 3. How does fraud activity change across **hours, days, and months**?
 4. Are fraud patterns different across **customer age and account age groups**?
 5. Are **high-value transactions, new accounts, address mismatches, or late-night transactions** associated with different fraud rates?
-6. Are there suspicious patterns involving **IP addresses, customers, and transaction activity**?
-7. What insights can help support **fraud monitoring and risk assessment**?
+6. What insights can help support **fraud monitoring and risk assessment**?
 
 ---
 
@@ -146,3 +145,17 @@ This project demonstrates an end-to-end analytics workflow from **raw data to bu
 It demonstrates practical skills in:
 
 **Data Cleaning - SQL Analysis - KPI Development - Fraud Analysis - Risk Assessment - Data Visualization - Business Insights**
+---
+
+## How to Reproduce the Analysis
+
+To reproduce this project:
+
+1. Download the dataset from the [Kaggle dataset page](https://kaggle.com/datasets/shriyashjagtap/fraudulent-e-commerce-transactions).
+2. Upload the CSV file to Google BigQuery as a raw table.
+3. Run `SQL/data_exploration.sql` to explore the dataset and check data quality.
+4. Run `SQL/cleaning.sql` to clean the data and create the cleaned table.
+5. Run `SQL/fraud_analysis.sql` to perform the fraud analysis.
+6. Run `SQL/fraud_analysis_table.sql` to create the final analytical table with the risk indicators used in the dashboard.
+7. Connect the final BigQuery table to Looker Studio and recreate or explore the visualizations.
+

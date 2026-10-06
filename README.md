@@ -145,6 +145,8 @@ This project demonstrates an end-to-end analytics workflow from **raw data to bu
 It demonstrates practical skills in:
 
 **Data Cleaning - SQL Analysis - KPI Development - Fraud Analysis - Risk Assessment - Data Visualization - Business Insights**
+
+
 ---
 
 ## How to Reproduce the Analysis

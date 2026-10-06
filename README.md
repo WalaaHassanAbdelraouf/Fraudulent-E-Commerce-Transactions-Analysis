@@ -13,7 +13,7 @@ The project uses the **Fraudulent E-Commerce Transactions** dataset available on
 
 🔗 **[View the Dataset on Kaggle](https://kaggle.com/datasets/shriyashjagtap/fraudulent-e-commerce-transactions)**
 
-The dataset contains **23,634 transactions across 17 fields**, including transaction details, customer information, payment methods, devices, addresses, and fraud status.
+The dataset contains **23,634 transactions across 16 fields**, including transaction details, customer information, payment methods, devices, addresses, and fraud status.
 
 The dataset contains:
 
